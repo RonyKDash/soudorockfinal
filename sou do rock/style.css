@@ -1,0 +1,162 @@
+*{
+    font-family: 'Fredoka One', cursive;
+}
+
+#cabecario{
+    background-color: rgb(218, 45, 203);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+
+#cabecario > h1{
+    color: white;
+    font-size: 50px;
+}
+
+#nav{
+    background-color: rgb(111, 9, 170);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-evenly;
+    height: 75px;
+    width: 25%;
+    align-items: center;
+    right: 8px;
+}
+
+nav{
+    font-size: 40px;
+}
+
+#container1{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    height: 354px;
+    width: 98%;
+    margin-top: 100px;
+    left: 13px;
+    border-width: 5px;
+    border-color: rgb(180, 14, 166);
+    border-style: solid;
+   
+   
+    
+}
+
+#bocchiimg{
+    position: relative;
+    width: 100px;
+}
+
+#bem_vindo{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+#container2{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    height: 354px;
+    width: 98%;
+    margin-top: 500px;
+    left: 13px;
+}
+
+#h21{
+    color: #cc12bd;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#sertanejo{
+    color: brown;
+}
+#butao{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+}
+
+button{
+    background-color: #cc12bd;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#sertanejo {
+    color: red;
+}
+
+#marrom {
+    color: #cc12bd;
+}
+
+#container3{
+    flex-direction: row;
+    position:absolute;
+    height: 354px;
+    width: 98%;
+    margin-top: 850px;
+    left: 13px;
+}
+
+h3{
+    color: #ff00c8;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+table {
+    position: relative;
+    top: 20px;
+    right: auto;
+    left: auto;
+    width: 100%;
+    border-spacing: 10px;
+
+}
+
+td {
+    text-align: left;
+    font-size: 50px;
+    color:#ff00c8;
+
+}
+
+td {
+    padding: 5px;
+}
+
+td:hover {
+    background-color: rgb(255, 255, 255);
+}

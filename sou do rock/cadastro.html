@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&effect=neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div style="display: flex;" class="principal">
+            <form action="" autocomplete="off" method="post">
+                <fieldset class="container">
+                    <legend>Cadastro</legend>
+                    <div class="ladoalado">
+                        <div style="display: flex;" class="barra">
+                            <label for="text" style="display: flex; ">
+                                <span><img src="palheta.png" alt="palheta"></span>
+                                Nome:
+                            </label>
+                            <input type="text" name="text" id="text" placeholder="Nome" required autofocus>
+                        </div>
+                        <div style="display: flex;" class="barra">
+                            <label for="password" style="display: flex; ">
+                                <span><img src="palheta.png" alt="palheta"></span>
+                                Senha:
+                            </label>
+                            <input type="password" name="password" id="password" placeholder="Senha" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="container" id="fieldsetdp">
+                    <div class="ladoalado">
+                        <div style="display: flex;" class="barra">
+                            <label for="number" style="display: flex;">
+                                <span><img src="palheta.png" alt="palheta"></span>
+                                Idade:
+                            </label>
+                            <input type="number" name="number" id="number" placeholder="Idade" required>
+                        </div>
+                        <div style="display: flex;" class="barra">
+                            <label for="genero" style="display: flex;"><span><img src="palheta.png"
+                                        alt="palheta"></span>
+                                Gênero:
+                            </label>
+                            <select name="genero" id="genero" required>
+                                <option value=""></option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="bandeirantes">Não falo com bandeirantes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="display: flex;" class="barra">
+                        <label for="email" style="display: flex; ">
+                            <span><img src="palheta.png" alt="palheta"></span>
+                            E-mail:
+                        </label>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <div style="display: flex;" class="barra">
+                        <label for="endereco" style="display: flex; ">
+                            <span><img src="palheta.png" alt="palheta"></span>
+                            Endereço:
+                        </label>
+                        <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+                    </div>
+                    <div style="display: flex; flex-direction:row;" class="barra">
+                        <div>
+                            <input type="checkbox" name="metalica" id="metalica" value="metalica" class="checkbox">
+                            <label for="metalica">Metalica</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="acdc" id="acdc" value="acdc" class="checkbox">
+                            <label for="acdc">AC/DC</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="beatles" id="beatles" value="beatles" class="checkbox">
+                            <label for="beatles">The Beatles</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="pistols" id="pistols" value="pistols" class="checkbox">
+                            <label for="pistols">Sex Pistols</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="ladoalado">
+                    <div>
+                        <button type="submit">
+                            Cadastrar
+                        </button>
+                    </div>
+                    <div id="button2">
+                        <button type="submit">
+                            <a href="login.html">Login</a>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

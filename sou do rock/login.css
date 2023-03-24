@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(145, 19, 124);
+    font-family: 'Fredoka One', cursive;
+}
+
+.barra {
+    text-align: center;
+    font-size: 50px;
+    flex-direction: row;
+    margin-bottom: 12px;
+
+}
+
+img {
+    padding: 0;
+    width: 50px;
+    margin-right: 5px;
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container {
+    flex-direction: column;
+    display: flex;
+    width: 40rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.principal {
+    width: 100%;
+    height: 60rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+input {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#senha {
+    margin-right: 35px;
+}
+
+body {
+    background-image: url(1284718.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button {
+    border: 1px solid black;
+    width: 16rem;
+    border-radius: 10px;
+    color: rgb(145, 19, 124);
+    opacity: 0.9;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.ladoalado {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#button2 {
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width: 600px) {
+    .barra {
+        text-align: center;
+        font-size: 50px;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    img {
+        width: 2rem;
+    }
+
+    .principal {
+        width: 100%;
+        height: 60rem;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .ladoalado {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        display: flex;
+        width: 30rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #button2 {
+        margin-left: 0;
+    }
+    
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Group</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&effect=neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function minhaFuncao() {
+            document.getElementById("sertanejo").innerHTML = "Agora você é do 'Rock'"
+            document.getElementById("sertanejo").id = "marrom"
+        }
+        function trocarVolta() {
+            document.getElementById("marrom").innerHTML = "Sertanejo de novo"
+            document.getElementById("marrom").id = "sertanejo"
+        }
+    </script>
+</head>
+
+<body>
+    <header id="cabecario">
+        <h1>Rock Group</h1>
+    </header>
+    <header>
+        <div id="nav">
+            <nav>
+                <a href="home.html" class="linknav"><span class="material-symbols-outlined">home</span>Home</a>
+                <a href="sobre.html" class="linknav">Sobre</a>
+                <a href="https://streamelements.com/ronyk_dash/tip" class="linknav"><span
+                    class="material-symbols-outlined">volunteer_activism</span>doações</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="container1">
+                <div id="bocchiimg">
+                    <img src="bocchi-bocchi-the-rock.gif" alt="palmas">
+                </div>
+                <div id="bem_vindo">
+                    <p>Seja bem vindo ao grupo do rock onde todas as sua inibições são automaticamente negadas </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="container2">
+                <div id="h21">
+                    <h2> Clique aqui e faça parte do nosso grupo</h2>
+                    <h2 id="sertanejo">Ain gosto de sertanejo</h2>
+                </div>
+                <div id="butao">
+                    <button type="button" onclick="minhaFuncao()" ondblclick="trocarVolta()">Entrar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="container3">
+            <div>
+                <h3>Principais apoiadores</h3>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Afonso</td>
+                        <td>Janaina</td>
+                        <td>Catanhari</td>
+                    </tr>
+                    <tr>
+                        <td>Manuel Gomez</td>
+                        <td>Gentúlio Vargas</td>
+                        <td>Jonhinhas</td>
+                    </tr>
+                    <tr>
+                        <td>Celeste</td>
+                        <td>Luiz Gonzaga</td>
+                        <td>Olindo</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
